@@ -8,7 +8,7 @@ function loadGraph()
       labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
       series: [
         [30, 45, 40, 10, 95, 35, 100], [50, 95, 60, 85, 35, 75, 90]
-      ]
+      ],
     };
     optionsHotelInComeChart = {
       lineSmooth: Chartist.Interpolation.cardinal({

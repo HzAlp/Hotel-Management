@@ -44,14 +44,14 @@ function goPage(index)
     var roomNames = document.getElementById("roomNames");
     if(currentIndex === 1)
     {
-        roomNames.text = "Single Room";
+        roomNames.text = "Single Room (200$)";
     }
     else if(currentIndex === 2)
     {
-        roomNames.text = "Double Room";
+        roomNames.text = "Double Room (400$)";
     }
     else if(currentIndex === 3)
     {
-        roomNames.text = "Luxury Room";
+        roomNames.text = "Luxury Room (800$)";
     }
 }
